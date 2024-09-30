@@ -22,7 +22,10 @@ html{
 }
 
 body{
-    background: var(--bg-color);
+    background: url('bgpic.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: var(--text-color);
 }
 
@@ -137,7 +140,7 @@ span{
 
 .home-content p{
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1.8;
     max-width: 1000px;
 }
@@ -162,17 +165,17 @@ span{
     0% {
         transform: scale(1);
         opacity: 1;
-        box-shadow: 0 0 20px rgb(237, 91, 37), 0 0 50px rgb(29, 220, 29), 0 0 100px rgb(115, 10, 115);
+        box-shadow: 0 0 20px rgb(237, 91, 37), 0 0 50px  rgb(115, 10, 115);
     }
     50% {
         transform: scale(1.5);
         opacity: 0.5;
-        box-shadow: 0 0 20px rgb(237, 91, 37), 0 0 50px rgb(29, 220, 29), 0 0 100px rgb(115, 10, 115);
+        box-shadow: 0 0 20px rgb(237, 91, 37), 0 0 50px  rgb(115, 10, 115);
     }
     100% {
         transform: scale(2);
         opacity: 0;
-        box-shadow: 0 0 20px rgb(166, 66, 29), 0 0 50px rgb(29, 220, 29), 0 0 100px rgb(115, 10, 115);
+        box-shadow: 0 0 20px rgb(166, 66, 29), 0 0 50px rgb(115, 10, 115);
     }
 }
 
